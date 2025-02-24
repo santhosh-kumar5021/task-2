@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="watch">
+            00:00:00
+        </div>
+        <hr>
+        <div class="buttons">
+            <button id="start" class="btn" onclick="start()" style="background-color: rgb(222, 228, 228);">Start</button>
+            <button id="pause" class="btn" onclick="pause()" style="background-color: rgb(220, 188, 238);">Pause</button>
+            <button id="lap" class="btn" onclick="lap()" style="background-color: rgb(169, 187, 246);">Lap</button>
+            <button id="Reset" class="btn" onclick="reset()" style="background-color: rgb(193, 223, 226);">Reset</button>
+            <button id="restart" class="btn" onclick="restart()" style="background-color: blanchedalmond;">Restart</button>
+        </div>
+        <hr>
+        <ul class="laps"></ul>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
